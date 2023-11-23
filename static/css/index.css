@@ -1,0 +1,114 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  body{
+      /* border: 2px solid black; */
+       font-family: 'Convergence';
+       /* height: 70vh; */
+       display: grid;
+       place-items: center;
+       font-size:  1.2em;
+      background-color: rgb(10, 9, 9);
+  }
+  h1{
+      color: red;
+  }
+  .container{
+      padding: 23px 23px;
+      margin: 23px 23px;
+  }
+  .formcontainer{
+      display: flex;
+      padding: 23px 23px;
+      margin: 23px 23px;
+      justify-content: center;
+      width: 64%;
+      height: 100%;
+      flex-direction: column;
+      border: 2px solid white;
+  }
+  .form{
+         position: relative;
+      width: 25rem;
+      margin: 13px 27px;
+      display: block;
+      height: 3rem;
+      left: 242px;
+  }
+  .form_input{
+      position: absolute;
+      top: 0;
+      
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid white;
+      border-radius: 20PX;
+      font-size: inherit;
+      color: white;
+      outline: none;
+      padding: 1.25rem;
+      background: none;
+      font-family: inherit;
+      transition: all 160ms ease-in;
+  }
+  .form_input:hover{
+      border-color: aqua;
+  
+  }
+  .form_input:focus{
+      border-color: aqua;
+  }
+  .form_label{
+      position: absolute;
+      left: 1rem;
+      top: 0.8rem;
+  padding: 0 0.5rem;
+  color: white;
+  cursor: text;
+  transition: top 200ms ease-in,left 200ms ease-in font-size 200ms ease-in;
+  background-color: black;
+  }
+  .form_input:focus ~.form_label,.form_input:not(:placeholder-shown).form_input:not(:focus)~.form_label{
+      top: -.5rem;
+      font-size: 0.8rem;
+      left: 0.8rem;
+  }
+  .btn{
+      
+      border-radius: 10px;
+      margin: 35px 401px;
+      padding: 15px 23px;
+      border-style: none;
+      width: 124px;
+      background: black;
+      color: aqua;
+  }
+  .btn:hover{border: 2px solid aqua;
+      color: red;
+      
+}
+  
+.btn:hover{border: 2px solid aqua;
+    color: red;
+}
+.xyz{
+    border: 2px solid rgb(255, 251, 251);
+    margin: 27px;
+    width: 64%;
+    padding: 23px;
+}
+.pr{
+    color: white;
+    position: relative;
+    right: -346px;
+  }
+.pri{
+    /* border:2px solid black; */
+    margin-bottom: 23px;
+    color: red;
+    position: relative;
+    right: -401px;
+}
